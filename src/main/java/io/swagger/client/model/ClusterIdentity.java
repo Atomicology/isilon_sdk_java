@@ -28,7 +28,7 @@ import java.io.IOException;
  * Unprivileged cluster information for display when logging in.
  */
 @ApiModel(description = "Unprivileged cluster information for display when logging in.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-18T15:45:33.897-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
 public class ClusterIdentity {
   @SerializedName("description")
   private String description = null;

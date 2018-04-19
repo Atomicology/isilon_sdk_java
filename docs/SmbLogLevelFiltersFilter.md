@@ -6,28 +6,8 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **id** | **Integer** | Unique ID of the log filter. |  [optional]
 **ipAddrs** | **List&lt;String&gt;** | Array of client IP addresses to filter against. |  [optional]
-**level** | [**LevelEnum**](#LevelEnum) | Logging level of the filter. | 
+**level** | **String** | Logging level of the filter. | 
 **ops** | [**List&lt;OpsEnum&gt;**](#List&lt;OpsEnum&gt;) | Array of SMB operations to filter against. |  [optional]
-
-
-<a name="LevelEnum"></a>
-## Enum: LevelEnum
-Name | Value
----- | -----
-ALWAYS | &quot;ALWAYS&quot;
-ERROR | &quot;ERROR&quot;
-WARNING | &quot;WARNING&quot;
-INFO | &quot;INFO&quot;
-VERBOSE | &quot;VERBOSE&quot;
-DEBUG | &quot;DEBUG&quot;
-TRACE | &quot;TRACE&quot;
-ALWAYS | &quot;always&quot;
-ERROR | &quot;error&quot;
-WARNING | &quot;warning&quot;
-INFO | &quot;info&quot;
-VERBOSE | &quot;verbose&quot;
-DEBUG | &quot;debug&quot;
-TRACE | &quot;trace&quot;
 
 
 <a name="List<OpsEnum>"></a>

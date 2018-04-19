@@ -27,7 +27,7 @@ import java.io.IOException;
  * Cluster contact info settings.
  */
 @ApiModel(description = "Cluster contact info settings.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-18T15:45:33.897-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
 public class ClusterOwner {
   @SerializedName("company")
   private String company = null;

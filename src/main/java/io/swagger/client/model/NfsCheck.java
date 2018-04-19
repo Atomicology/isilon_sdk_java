@@ -26,13 +26,13 @@ import java.io.IOException;
 /**
  * NfsCheck
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-18T15:45:33.897-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
 public class NfsCheck {
   @SerializedName("id")
   private Integer id = null;
 
-  @SerializedName("messages")
-  private String messages = null;
+  @SerializedName("message")
+  private String message = null;
 
   public NfsCheck id(Integer id) {
     this.id = id;
@@ -52,22 +52,22 @@ public class NfsCheck {
     this.id = id;
   }
 
-  public NfsCheck messages(String messages) {
-    this.messages = messages;
+  public NfsCheck message(String message) {
+    this.message = message;
     return this;
   }
 
    /**
    * The message about the export.
-   * @return messages
+   * @return message
   **/
   @ApiModelProperty(required = true, value = "The message about the export.")
-  public String getMessages() {
-    return messages;
+  public String getMessage() {
+    return message;
   }
 
-  public void setMessages(String messages) {
-    this.messages = messages;
+  public void setMessage(String message) {
+    this.message = message;
   }
 
 
@@ -81,12 +81,12 @@ public class NfsCheck {
     }
     NfsCheck nfsCheck = (NfsCheck) o;
     return Objects.equals(this.id, nfsCheck.id) &&
-        Objects.equals(this.messages, nfsCheck.messages);
+        Objects.equals(this.message, nfsCheck.message);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(id, messages);
+    return Objects.hash(id, message);
   }
 
 
@@ -96,7 +96,7 @@ public class NfsCheck {
     sb.append("class NfsCheck {\n");
     
     sb.append("    id: ").append(toIndentedString(id)).append("\n");
-    sb.append("    messages: ").append(toIndentedString(messages)).append("\n");
+    sb.append("    message: ").append(toIndentedString(message)).append("\n");
     sb.append("}");
     return sb.toString();
   }

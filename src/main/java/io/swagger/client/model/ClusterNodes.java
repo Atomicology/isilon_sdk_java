@@ -29,7 +29,7 @@ import java.io.IOException;
  * The node details useful during an upgrade or assessment.
  */
 @ApiModel(description = "The node details useful during an upgrade or assessment.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-18T15:45:33.897-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
 public class ClusterNodes {
   @SerializedName("error")
   private ClusterNodesError error = null;

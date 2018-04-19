@@ -28,7 +28,7 @@ import java.util.List;
 /**
  * SmbLogLevelFiltersFilter
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-18T15:45:33.897-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
 public class SmbLogLevelFiltersFilter {
   @SerializedName("id")
   private Integer id = null;
@@ -36,79 +36,8 @@ public class SmbLogLevelFiltersFilter {
   @SerializedName("ip_addrs")
   private List<String> ipAddrs = null;
 
-  /**
-   * Logging level of the filter.
-   */
-  @JsonAdapter(LevelEnum.Adapter.class)
-  public enum LevelEnum {
-    ALWAYS("ALWAYS"),
-    
-    ERROR("ERROR"),
-    
-    WARNING("WARNING"),
-    
-    INFO("INFO"),
-    
-    VERBOSE("VERBOSE"),
-    
-    DEBUG("DEBUG"),
-    
-    TRACE("TRACE"),
-    
-    ALWAYS("always"),
-    
-    ERROR("error"),
-    
-    WARNING("warning"),
-    
-    INFO("info"),
-    
-    VERBOSE("verbose"),
-    
-    DEBUG("debug"),
-    
-    TRACE("trace");
-
-    private String value;
-
-    LevelEnum(String value) {
-      this.value = value;
-    }
-
-    public String getValue() {
-      return value;
-    }
-
-    @Override
-    public String toString() {
-      return String.valueOf(value);
-    }
-
-    public static LevelEnum fromValue(String text) {
-      for (LevelEnum b : LevelEnum.values()) {
-        if (String.valueOf(b.value).equals(text)) {
-          return b;
-        }
-      }
-      return null;
-    }
-
-    public static class Adapter extends TypeAdapter<LevelEnum> {
-      @Override
-      public void write(final JsonWriter jsonWriter, final LevelEnum enumeration) throws IOException {
-        jsonWriter.value(enumeration.getValue());
-      }
-
-      @Override
-      public LevelEnum read(final JsonReader jsonReader) throws IOException {
-        String value = jsonReader.nextString();
-        return LevelEnum.fromValue(String.valueOf(value));
-      }
-    }
-  }
-
   @SerializedName("level")
-  private LevelEnum level = null;
+  private String level = null;
 
   /**
    * Valid SMB operations to log
@@ -234,7 +163,7 @@ public class SmbLogLevelFiltersFilter {
     this.ipAddrs = ipAddrs;
   }
 
-  public SmbLogLevelFiltersFilter level(LevelEnum level) {
+  public SmbLogLevelFiltersFilter level(String level) {
     this.level = level;
     return this;
   }
@@ -244,11 +173,11 @@ public class SmbLogLevelFiltersFilter {
    * @return level
   **/
   @ApiModelProperty(required = true, value = "Logging level of the filter.")
-  public LevelEnum getLevel() {
+  public String getLevel() {
     return level;
   }
 
-  public void setLevel(LevelEnum level) {
+  public void setLevel(String level) {
     this.level = level;
   }
 

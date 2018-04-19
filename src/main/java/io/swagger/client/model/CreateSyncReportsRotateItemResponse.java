@@ -27,7 +27,7 @@ import java.io.IOException;
  * Force rotation of reports.
  */
 @ApiModel(description = "Force rotation of reports.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-18T15:45:33.897-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
 public class CreateSyncReportsRotateItemResponse {
   @SerializedName("message")
   private String message = null;

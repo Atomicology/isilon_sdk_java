@@ -26,7 +26,7 @@ import java.io.IOException;
 /**
  * SyncJobPolicyFileMatchingPatternOrCriteriaItemAndCriteriaItem
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-18T15:45:33.897-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
 public class SyncJobPolicyFileMatchingPatternOrCriteriaItemAndCriteriaItem {
   @SerializedName("attribute_exists")
   private Boolean attributeExists = null;
@@ -37,65 +37,8 @@ public class SyncJobPolicyFileMatchingPatternOrCriteriaItemAndCriteriaItem {
   @SerializedName("field")
   private String field = null;
 
-  /**
-   * How to compare the specified attribute of each file to the specified value.
-   */
-  @JsonAdapter(OperatorEnum.Adapter.class)
-  public enum OperatorEnum {
-    _("=="),
-    
-    NOT_EQUAL("!="),
-    
-    GREATER_THAN(">"),
-    
-    GREATER_THAN_OR_EQUAL_TO(">="),
-    
-    LESS_THAN("<"),
-    
-    LESS_THAN_OR_EQUAL_TO("<="),
-    
-    EXCLAMATION("!");
-
-    private String value;
-
-    OperatorEnum(String value) {
-      this.value = value;
-    }
-
-    public String getValue() {
-      return value;
-    }
-
-    @Override
-    public String toString() {
-      return String.valueOf(value);
-    }
-
-    public static OperatorEnum fromValue(String text) {
-      for (OperatorEnum b : OperatorEnum.values()) {
-        if (String.valueOf(b.value).equals(text)) {
-          return b;
-        }
-      }
-      return null;
-    }
-
-    public static class Adapter extends TypeAdapter<OperatorEnum> {
-      @Override
-      public void write(final JsonWriter jsonWriter, final OperatorEnum enumeration) throws IOException {
-        jsonWriter.value(enumeration.getValue());
-      }
-
-      @Override
-      public OperatorEnum read(final JsonReader jsonReader) throws IOException {
-        String value = jsonReader.nextString();
-        return OperatorEnum.fromValue(String.valueOf(value));
-      }
-    }
-  }
-
   @SerializedName("operator")
-  private OperatorEnum operator = null;
+  private String operator = null;
 
   /**
    * The type of this criterion, that is, which file attribute to match on.
@@ -243,7 +186,7 @@ public class SyncJobPolicyFileMatchingPatternOrCriteriaItemAndCriteriaItem {
     this.field = field;
   }
 
-  public SyncJobPolicyFileMatchingPatternOrCriteriaItemAndCriteriaItem operator(OperatorEnum operator) {
+  public SyncJobPolicyFileMatchingPatternOrCriteriaItemAndCriteriaItem operator(String operator) {
     this.operator = operator;
     return this;
   }
@@ -253,11 +196,11 @@ public class SyncJobPolicyFileMatchingPatternOrCriteriaItemAndCriteriaItem {
    * @return operator
   **/
   @ApiModelProperty(value = "How to compare the specified attribute of each file to the specified value.")
-  public OperatorEnum getOperator() {
+  public String getOperator() {
     return operator;
   }
 
-  public void setOperator(OperatorEnum operator) {
+  public void setOperator(String operator) {
     this.operator = operator;
   }
 

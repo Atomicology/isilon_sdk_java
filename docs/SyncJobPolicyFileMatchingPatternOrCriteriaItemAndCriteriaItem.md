@@ -7,23 +7,10 @@ Name | Type | Description | Notes
 **attributeExists** | **Boolean** | For \&quot;custom_attribute\&quot; type criteria.  The file will match as long as the attribute named by \&quot;field\&quot; exists.  Default is true. |  [optional]
 **caseSensitive** | **Boolean** | If true, the value comparison will be case sensitive.  Default is true. |  [optional]
 **field** | **String** | The name of the file attribute to match on (only required if this is a custom_attribute type criterion).  Default is an empty string \&quot;\&quot;. |  [optional]
-**operator** | [**OperatorEnum**](#OperatorEnum) | How to compare the specified attribute of each file to the specified value. |  [optional]
+**operator** | **String** | How to compare the specified attribute of each file to the specified value. |  [optional]
 **type** | [**TypeEnum**](#TypeEnum) | The type of this criterion, that is, which file attribute to match on. | 
 **value** | **String** | The value to compare the specified attribute of each file to. |  [optional]
 **wholeWord** | **Boolean** | If true, the attribute must match the entire word.  Default is true. |  [optional]
-
-
-<a name="OperatorEnum"></a>
-## Enum: OperatorEnum
-Name | Value
----- | -----
-_ | &quot;&#x3D;&#x3D;&quot;
-NOT_EQUAL | &quot;!&#x3D;&quot;
-GREATER_THAN | &quot;&gt;&quot;
-GREATER_THAN_OR_EQUAL_TO | &quot;&gt;&#x3D;&quot;
-LESS_THAN | &quot;&lt;&quot;
-LESS_THAN_OR_EQUAL_TO | &quot;&lt;&#x3D;&quot;
-EXCLAMATION | &quot;!&quot;
 
 
 <a name="TypeEnum"></a>

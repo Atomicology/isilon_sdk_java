@@ -30,7 +30,7 @@ import java.util.List;
  * Global SyncIQ settings.
  */
 @ApiModel(description = "Global SyncIQ settings.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-18T15:45:33.897-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
 public class SyncSettingsExtended {
   @SerializedName("burst_memory_constraint")
   private Integer burstMemoryConstraint = null;

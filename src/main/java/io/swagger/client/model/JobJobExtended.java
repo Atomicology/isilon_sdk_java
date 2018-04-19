@@ -28,7 +28,7 @@ import java.util.List;
 /**
  * JobJobExtended
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-18T15:45:33.897-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
 public class JobJobExtended {
   /**
    * State to which the job is transitioning; if control_state is identical to state, the job&#39;s state is stable.

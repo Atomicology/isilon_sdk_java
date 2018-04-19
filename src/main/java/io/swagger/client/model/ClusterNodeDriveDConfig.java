@@ -33,7 +33,7 @@ import java.io.IOException;
 /**
  * ClusterNodeDriveDConfig
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-18T15:45:33.897-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
 public class ClusterNodeDriveDConfig {
   @SerializedName("alert")
   private NodeDriveconfigNodeAlert alert = null;
