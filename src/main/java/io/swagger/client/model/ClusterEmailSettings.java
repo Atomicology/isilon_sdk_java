@@ -26,7 +26,7 @@ import java.io.IOException;
 /**
  * ClusterEmailSettings
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T15:41:52.549-07:00")
 public class ClusterEmailSettings {
   /**
    * This setting determines how notifications will be batched together to be sent by email.  &#39;none&#39; means each notification will be sent separately.  &#39;severity&#39; means notifications of the same severity will be sent together.  &#39;category&#39; means notifications of the same category will be sent together.  &#39;all&#39; means all notifications will be batched together and sent in a single email.

@@ -27,7 +27,7 @@ import java.io.IOException;
  * Flush security objects cache.
  */
 @ApiModel(description = "Flush security objects cache.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T15:41:52.549-07:00")
 public class AuthCacheItem {
   @SerializedName("all")
   private String all = null;

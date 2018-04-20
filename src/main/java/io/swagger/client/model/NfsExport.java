@@ -31,7 +31,7 @@ import java.util.List;
  * Specifies configuration values for NFS exports.
  */
 @ApiModel(description = "Specifies configuration values for NFS exports.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T15:41:52.549-07:00")
 public class NfsExport {
   @SerializedName("all_dirs")
   private Boolean allDirs = null;

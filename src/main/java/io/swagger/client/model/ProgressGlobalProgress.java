@@ -26,7 +26,7 @@ import java.io.IOException;
 /**
  * ProgressGlobalProgress
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T15:41:52.549-07:00")
 public class ProgressGlobalProgress {
   @SerializedName("protocol_audit_latest_log_time")
   private Integer protocolAuditLatestLogTime = null;

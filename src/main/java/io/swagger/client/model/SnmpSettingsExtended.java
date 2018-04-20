@@ -27,7 +27,7 @@ import java.io.IOException;
  * SNMP settings.
  */
 @ApiModel(description = "SNMP settings.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T15:41:52.549-07:00")
 public class SnmpSettingsExtended {
   @SerializedName("read_only_community")
   private String readOnlyCommunity = null;

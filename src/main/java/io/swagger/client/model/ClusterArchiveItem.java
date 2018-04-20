@@ -27,7 +27,7 @@ import java.io.IOException;
  * Start an archive of an upgrade.
  */
 @ApiModel(description = "Start an archive of an upgrade.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T15:41:52.549-07:00")
 public class ClusterArchiveItem {
   @SerializedName("clear")
   private Boolean clear = null;

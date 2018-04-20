@@ -30,7 +30,7 @@ import java.util.List;
  * View a NDMP restartable backup Context
  */
 @ApiModel(description = "View a NDMP restartable backup Context")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T15:41:52.549-07:00")
 public class NdmpContextsBre {
   @SerializedName("backup type")
   private String backupType = null;

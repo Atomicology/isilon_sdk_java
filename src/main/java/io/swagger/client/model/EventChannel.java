@@ -30,7 +30,7 @@ import java.util.List;
  * Named channel through which alerts can be delivered.
  */
 @ApiModel(description = "Named channel through which alerts can be delivered.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T15:41:52.549-07:00")
 public class EventChannel {
   @SerializedName("allowed_nodes")
   private List<Integer> allowedNodes = null;

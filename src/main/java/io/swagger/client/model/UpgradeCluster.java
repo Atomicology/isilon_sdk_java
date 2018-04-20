@@ -30,7 +30,7 @@ import java.io.IOException;
  * Cluster wide upgrade status info.
  */
 @ApiModel(description = "Cluster wide upgrade status info.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T15:41:52.549-07:00")
 public class UpgradeCluster {
   @SerializedName("cluster_overview")
   private UpgradeClusterClusterOverview clusterOverview = null;

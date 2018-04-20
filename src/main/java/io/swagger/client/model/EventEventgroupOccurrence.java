@@ -27,7 +27,7 @@ import java.io.IOException;
  * Ignore flag for eventgroup.
  */
 @ApiModel(description = "Ignore flag for eventgroup.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T15:41:52.549-07:00")
 public class EventEventgroupOccurrence {
   @SerializedName("ignore")
   private Boolean ignore = null;

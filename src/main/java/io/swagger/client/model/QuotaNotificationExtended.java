@@ -27,7 +27,7 @@ import java.io.IOException;
 /**
  * QuotaNotificationExtended
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T15:41:52.549-07:00")
 public class QuotaNotificationExtended {
   @SerializedName("action_alert")
   private Boolean actionAlert = null;

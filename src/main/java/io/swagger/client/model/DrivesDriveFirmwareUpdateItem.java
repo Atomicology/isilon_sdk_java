@@ -27,7 +27,7 @@ import java.io.IOException;
  * Drive firmware update information.
  */
 @ApiModel(description = "Drive firmware update information.")
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T09:38:03.973-07:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-04-19T15:41:52.549-07:00")
 public class DrivesDriveFirmwareUpdateItem {
   @SerializedName("cluster_wide")
   private Boolean clusterWide = null;
